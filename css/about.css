@@ -1,0 +1,186 @@
+*{
+    margin:0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: roboto!important;
+}
+.navbar-nav{
+    padding: 0 0 0 40px;
+}
+
+.nav-item{
+    padding: 0 20px 0 0;
+    font-size: 18px;
+}
+
+.home-container{
+    background-color: #f8eace;
+}
+.search-button{
+    padding: 30px 0 0 0;
+}
+.home-desc{
+    width: 100%;
+    padding: 10px 0 10px 30px;
+}
+
+
+.navbar{
+    display: flex;
+}
+
+.navbar a {
+    color: dodgerblue;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.navbar img{
+    width:300px
+}
+.navbar  .active{
+    border-bottom: 5px solid #2574ed;
+    padding: 10px 5px;
+}
+.navbar a .active{
+    pointer-events: none;
+}
+
+hr{
+    margin-top: 1rem;
+    margin-bottom: 0.5em;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    
+    /* text-align: center; */
+}
+
+.flex-item-left{
+    background-color: #eceff1;
+    padding: 80px;
+    flex: 50%;
+}
+
+.page-color{
+    background-color: #c7dff3;
+    padding: 15px;
+}
+
+.flex-item-left p{
+     margin-top: 5%;
+    font-size: larger;
+    font-weight: 600px;
+    line-height: 22px;
+    
+   
+}
+
+.aboutus-color{
+   color:  #2574ed;
+}
+.flex-item-right{
+    
+    padding: 10px ;
+    flex: 50%;
+    
+}
+
+@media screen and (max-width:800px){
+    .flex-container{
+        flex-direction:column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+
+    .navbar a {
+        color: dodgerblue;
+        font-weight: bolder;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+
+    .page-color h2{
+        text-align: center;
+     }
+}
+
+
+.footer{
+    background-color: #2B3856;
+    padding: 40px 0px;
+    margin-top: 5px;
+}
+.footer .login_1 .footer_img{
+    text-align: center;
+    justify-content: center;
+}
+.footer .footer_socialicons{
+    text-align: center;
+}
+.footer .footer_socialicons ul li{
+    display: inline-block;
+    margin-top: 15px;
+}
+.footer .footer_socialicons ul li img{
+    width: 55px;
+}
+
+.footer p{
+    font-size: 20px;
+    margin-top: 5px;
+    color:#ffffff;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.contact .search{
+    width:100%
+}
+.search .input{
+    width: 350px;
+    height: 40px;
+    font-size: 15px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border-style: ridge;
+}
+.search textarea{
+    border-radius: 5px;
+    border-style: ridge;
+    padding: 15px 5px;
+}
+.search textarea::placeholder{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 2px;
+}
+.search button{
+    width: 350px;
+    height: 40px;
+    background-color: #2574ed;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #ffffff;
+    border-radius: 5px 5px;
+}
+
+
+@media screen and (min-width:768px){
+    .contact .search {
+        width: 100%;
+        padding: 0 0 0 45px;
+    }
+}
