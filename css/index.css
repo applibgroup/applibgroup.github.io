@@ -9,7 +9,7 @@ body{
     font-family: roboto!important;
 }
 .navbar-nav{
-    padding: 0 0 0 40px;
+    padding: 0 0 0 100px;
 }
 
 .nav-item{
@@ -43,7 +43,8 @@ body{
 }
 .page-color h2{
     margin-top: 1rem;
-    
+    font-size:35px;
+    font-weight:700;
     
     
 }
