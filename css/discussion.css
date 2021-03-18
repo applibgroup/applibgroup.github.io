@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding: 0;
+}
+*{
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family: 'Muli';
+}
+
+.nav-link{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-item{
+    padding: 0 20px 0 0;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    
+    /* text-align: center; */
+}
+
+
+
+
+.flex-item-left{
+    background-color: #eceff1;
+    padding: 80px;
+    flex: 50%;
+}
+
+.page-color{
+    background-color: #c7dff3;
+  
+}
+
+
+
+.navbar{
+    display: flex;
+}
+
+.navbar a {
+    color: dodgerblue;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.navbar img{
+    width:300px
+}
+.navbar .active{
+    border-bottom: 5px solid #2574ed;
+    padding: 10px 5px;
+}
+.navbar a .active{
+    pointer-events: none;
+}
+
+.page-color h2{
+    line-height: 45px;
+
+}
+
+h2{
+
+    font-weight: bold;
+}
+
+
+.flex-item-right{
+    
+    padding: 10px;
+    flex: 50%;
+}
+
+.media-body {
+    padding: 0 0 0 30px;
+}
+
+.p-3 {
+    padding: 1rem!important;
+    margin: 20px 20px 50px 20px !important;
+    /* box-sizing: border-box; */
+}
+
+p{
+    font-size: large;
+}
+
+@media screen and (max-width:800px){
+    .flex-container{
+        flex-direction:column;
+    }
+
+    .navbar{
+        flex-direction: column;
+    }
+
+    .navbar a {
+        color: dodgerblue;
+        font-weight: bolder;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+
+    .page-color h2{
+        text-align: center;
+     }
+
+     .ml-auto, .mx-auto {
+        margin: auto;
+    }
+}
+
+.text-center {
+    text-align: center!important;
+    padding: 20px 20px;
+}
+.p-3 {
+    padding: 1rem!important;
+    margin: 20px;
+    /* box-sizing: border-box; */
+}
+.p3 img{
+   width: 100%;
+}
+
+.footer{
+    background-color: #2B3856;
+    padding: 40px 0px;
+    margin-top: 5px;
+}
+.footer .login_1 .footer_img{
+    text-align: center;
+    justify-content: center;
+}
+.footer .footer_socialicons{
+    text-align: center;
+}
+.footer .footer_socialicons ul li{
+    display: inline-block;
+    margin-top: 15px;
+}
+.footer .footer_socialicons ul li img{
+    width: 55px;
+}
+
+.footer p{
+    font-size: 20px;
+    margin-top: 5px;
+    color:#ffffff;
+    margin-top: 35px;
+    text-align: center;
+}
+
+
+.btn{
+    display: block;
+}
+    .btn:after{
+        content: url('.././images/next.png');
+        position: relative;
+        top:7px;
+        width: 10px;
+        height: 15px;
+    }
+
+    button.btn.btn-primary {
+        padding-top: 0px;
+    }
