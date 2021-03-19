@@ -163,6 +163,7 @@ p{
 
 button.btn.btn-primary {
     padding-top: 0px;
+    font-weight:600;
 }
     .btn:after{
         content: url('.././images/next.png');
