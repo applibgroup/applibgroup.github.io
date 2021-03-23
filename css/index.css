@@ -193,6 +193,10 @@ h4{
     font-size: small;
     
 }
+.panel-color .btn_1{
+    font-weight: 600;
+    
+}
 
 
 .online-events img{
@@ -241,6 +245,9 @@ h6.LaunchHeading{
     font-weight: 600;
     text-decoration:none;
 }
+a#icon{
+    padding:0 130px 0 0;
+}
 
 @media screen and (max-width:800px){
     .flex-container{
@@ -279,6 +286,9 @@ h6.LaunchHeading{
     .online-event-details {
         padding: 10px 0 70px 0  !important;
     }
+    a#icon{
+    padding:0 185px 0 0;
+}
     
 
 }
