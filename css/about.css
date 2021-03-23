@@ -143,13 +143,13 @@ hr{
         padding:0
     }
 
-    .search textarea {
+    /*.search textarea {
         border-radius: 5px;
         border-style: ridge;
          width: 100%; 
         
      
-    }
+    }*/
     
 
     /* section.contact {
@@ -234,18 +234,18 @@ form {
 
 
 @media screen and (min-width:768px){
-    /* .contact .search {
+    .contact .search {
         width: 100%;
-        padding: 0 0 0 50px;
-    } */
+       /* padding: 0 0 0 50px;*/
+    } 
 
    
-    .search textarea {
+    /*.search textarea {
         border-radius: 5px;
         border-style: ridge;
-       /* padding: 15px 5px;*/ 
+        padding: 15px 5px; 
         width: 70%;
-    }
+    }*/
 
     /* section.contact {
         padding: 0 !important;
