@@ -211,9 +211,9 @@ h4{
     margin: 6% 0 ;
 }
  #icon::after{
-    content: url('.././images/next_blue.png');
+    content: url('.././images/next_blue_18.png');
     position: relative;
-    top: 8px;
+    top: 6px;
     font-weight: 600;
     font-size: small;
     text-decoration: none;
