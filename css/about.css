@@ -10,13 +10,13 @@ body{
     font-family: 'Muli';
 }
 
-.nav-link{
+/* .nav-link{
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-item{
     padding: 0 20px 0 0;
-}
+} */
 .home-container{
     background-color: #f8eace;
 }
@@ -29,7 +29,7 @@ body{
 }
 
 
-.navbar{
+/* .navbar{
     display: flex;
 }
 
@@ -50,7 +50,20 @@ body{
 }
 .navbar a .active{
     pointer-events: none;
-}
+} */
+
+  li > a{
+      font-size:medium;
+      font-weight: 500;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .dropdown-menu > a{
+    font-size:medium;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #007bff; 
+  }
 
 .page-color h2{
     line-height: 45px;
