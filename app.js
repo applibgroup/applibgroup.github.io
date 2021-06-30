@@ -16,6 +16,7 @@ window.onload = function(){
     document.getElementById('submit-detail').onclick = function(){
         userDetails();
             if(userName === '' && email === '' && institution === '' && phoneNum === ''){
+                alert('Cannot be blank');
                 return
             }else{
                 firebase.database().ref('users/' + userName).set({
