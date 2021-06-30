@@ -1,4 +1,6 @@
 window.onload = function(){
+
+    document.querySelector('.alert-success').style.display = 'none';
     let userName,email,institution,phoneNum;
 
     function userDetails(){
@@ -26,12 +28,12 @@ window.onload = function(){
                   });
             }
 
-                //   document.querySelector('.alert-success').style.display = 'block';
-                //   setTimeout(function(){ document.querySelector('.alert-success').style.display = 'none' }, 3000);
+                  document.querySelector('.alert-success').style.display = 'block';
+                  setTimeout(function(){ document.querySelector('.alert-success').style.display = 'none' }, 3000);
                   
       
-                //   $('#myModal').modal('hide');
-                //   return false;
+                  $('#myModal').modal('hide');
+                  return false;
             }
         
 
