@@ -14,7 +14,9 @@ window.onload = function(){
 
     document.getElementById('submit-detail').onclick = function(){
         userDetails();
-
+            if(userName === '' && email === '' && institution === '' && phoneNum === ''){
+                return
+            }else{
         
             firebase.database().ref('users/' + userName).set({
               name: userName,
@@ -30,7 +32,7 @@ window.onload = function(){
 
             $('#myModal').modal('hide');
             return false;
-                      
+            }            
     }
     
 }
