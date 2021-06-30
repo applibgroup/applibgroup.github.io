@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./app.css">
     <title>Prize winner</title>
 </head>
@@ -52,7 +53,8 @@
                   </tr>
                   <tr>
                     <td>Contest Timelines</td>
-                    <td>Contest completion by end of July</td>
+                    <td>Registration starts on 30th June, closes on 5th July
+                      The contest ends on 8th August</td>
                   </tr>
                   <tr>
                     <td>Prize Details</td>
@@ -77,17 +79,17 @@
             </div><br>
             <div class="wrapper-body">
               <h6>How to Participate</h6><br>
-              <p>1. It is easy! You just need to adapt an existing open source application library for the latest open source IoT OS – Harmony OS.</p>
+              <p>1. It is easy! You just need to adapt an existing open source application library for the latest open source All Scenario, All Device OS – Harmony OS.
+                HarmonyOS is a new-microkernel based, distributed and Open Source  operating system developed by Huawei which is designed to work with wide range of device including mobile phones, tablets, wearables, smart TVs, etc.
+              </p>
               <p>2. Any entries received before the opening or after the closing of the competition will be considered as invalid entries and will not be considered for the evaluation.</p>
-              <p>3. hose who are passionate about open source and keen to participate, please send an Email to us at <a href="mailto:info@applibgroup.dev">info@applibgroup.dev</a> , mentioning your contact details. Please do mention that you fully accept the terms and conditions of the contest.</p>
-              <p>4. Once we receive your Email, our team will guide you on the further steps.</p>
+              <p>3. Those who are passionate about open source and keen to participate, please click "I Agree" option provided below and also fill the details and submit. By filling these details, we assumed that you have accepted all terms and conditions.</p>
+              <p>4. Once we receive your details, our team will guide you on the further steps.</p>
             </div><br>
             <div class="wrapper-body">
               <h6>Prizes</h6><br>
-              <p>1. First successfully completed and accepted entry will be rewarded with 50K. Next ten such entries will be rewarded with 25K each.</p>
-              <p>2. The winners will be individually notified by the Organizer and the information will be published via social media as well in the month of August.</p>
-              <p>3. All prizes are strictly not transferable, assignable, exchangeable or redeemable by the participant in any form or manner other than that is specified by the Organizer/Sponsor.</p>
-              <p>4. In case of cash prizes, the winners shall be the sole responsible for all aspects related to banking charges, tax payments etc.</p>
+              <p>1. All prizes are strictly not transferable, assignable, exchangeable or redeemable by the participant in any form or manner other than that is specified by the Organizer/Sponsor.</p>
+              <p>2. In case of cash prizes, the winners shall be the sole responsible for all aspects related to banking charges, tax payments etc.</p>
             </div><br>
             <div class="wrapper-body">
               <h6>Contest Timelines</h6><br>
@@ -118,40 +120,51 @@
               <br>
               <p>DISCLAIMER: IN NO EVENT, WILL ORGANZIER/SPONSOR BE LIABLE TO YOU FOR ANY DIRECT, SPECIAL, INCIDENTAL, EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES (INCLUDING LOSS OF USE, DATA, BUSINESS OR PROFITS) ARISING OUT OF OR IN CONNECTION WITH YOUR PARTICIPATION IN THE CONTEST, WHETHER SUCH LIABILITY ARISES FROM ANY CLAIM BASED UPON CONTRACT, WARRANTY, STRICT LIABILITY OR OTHERWISE, AND WHETHER OR NOT ORGANIZER/SPONSOR HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGE</p>
             </div>
+           
+
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-                I Agree
+              I Agree
             </button>
-            <div class="alert alert-success">
-                <strong>Success!</strong> <a href="#" class="alert-link">Successfully Submited</a>.
-            </div>
-            
-              <!-- The Modal -->
-              <div class="modal fade" id="myModal">
-                <div class="modal-dialog">
-                  <div class="modal-content">
+          
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Fill Details</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
                   
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                      <h4 class="modal-title">Fill in Details</h4>
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    
-                    <!-- Modal body -->
-                    <div class="modal-body">
-                       <div class="form-group">
-                              <label for="name">Full Name</label>
-                              <input type="text" class="form-control" placeholder="Enter your name" id="name">
-                              <label for="email">Email address:</label>
-                              <input type="email" class="form-control" placeholder="Enter email" id="email">
-                              <label for="institute">Name of Institution</label>
-                              <input type="text" class="form-control" placeholder="Enter your Institution" id="institution">
-                              <label for="institute">Phone :</label>
-                              <input type="number" class="form-control" placeholder="phone number" id="phoneNum">
-                        </div>
-                            <button type="submit" id="submit-detail" data-dismiss="modal" class="btn btn-primary">Submit</button>
-                     </div>
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="institute">Name of Institute:</label>
+                        <input type="text" class="form-control" id="institute" placeholder="Enter Institute" name="institute" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="institute">phone:</label>
+                        <input type="number" class="form-control" id="phone" placeholder="Enter phone number" name="phone" required>
+                      </div>
+
+                    </form>
+                    <button type="submit" id="submit-detail" class="btn btn-primary">Submit</button>
+                  </div>
+                 
                 </div>
               </div>
+            </div>
+
         </div>
 
     </div>
