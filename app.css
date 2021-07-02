@@ -16,6 +16,10 @@
     font-size: 20px;
 }
 
+.wrapper-body p {
+    text-align: justify;
+}
+
 .wrapper-main {
     padding: 10px 0 10px 10px;
 }
@@ -29,6 +33,10 @@
     
     .table-desc {
         padding: 0 80px;
+    }
+
+    .wrapper-body p {
+        text-align: justify;
     }
     td {
         font-weight: 600;
